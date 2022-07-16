@@ -41,7 +41,7 @@ for more options.
 
 #ifdef RGB_MATRIX_ENABLE
 #define RGB_DI_PIN D3
-#define DRIVER_LED_TOTAL RGBLED_NUM
+#define DRIVER_LED_TOTAL 74
 #define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 80 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash.
 /* #define RGB_MATRIX_HUE_STEP 8 */
@@ -50,7 +50,8 @@ for more options.
 /* #define RGB_MATRIX_SPD_STEP 10 */
 #define RGB_MATRIX_KEYPRESSES
 /* #define RGB_MATRIX_FRAMEBUFFER_EFFECTS */
-#define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+/* #define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON */
 #define ENABLE_RGB_MATRIX_SOLID_SPLASH
 #define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
 #define ENABLE_RGB_MATRIX_MULTISPLASH

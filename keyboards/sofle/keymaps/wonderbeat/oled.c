@@ -181,15 +181,13 @@ static void print_status_narrow(void) {
             oled_write_ln_P(PSTR("Qwrt"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("Clmk"), false);
+            oled_write_ln_P(PSTR("ClmkDH"), false);
             break;
         default:
-            oled_write_P(PSTR("Mod\n"), false);
             break;
     }
-    oled_write_P(PSTR("\n\n"), false);
+    oled_write_P(PSTR("\n"), false);
     // Print current layer
-    oled_write_ln_P(PSTR("LAYER"), false);
     switch (get_highest_layer(layer_state)) {
         case 0:
         case 1:
@@ -202,7 +200,7 @@ static void print_status_narrow(void) {
             oled_write_P(PSTR("Lower"), false);
             break;
         default:
-            oled_write_ln_P(PSTR("Undef"), false);
+            oled_write_ln_P(PSTR("undef"), false);
     }
     oled_write_P(PSTR("\n\n"), false);
     led_t led_usb_state = host_keyboard_led_state();

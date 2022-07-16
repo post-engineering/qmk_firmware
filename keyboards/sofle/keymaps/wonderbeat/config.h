@@ -60,3 +60,9 @@ for more options.
 /* #define SPLIT_TRANSPORT_MIRROR */
 
 #endif
+
+#if defined(OLED_FONT_H)
+#    undef OLED_FONT_H
+#endif
+
+#define OLED_FONT_H "keyboards/sofle/keymaps/wonderbeat/glcdfont.c"

@@ -22,16 +22,13 @@
  for more options.
  */
 
- #define EE_HANDS
+ /* #define EE_HANDS */
+
+ #define MASTER_LEFT
 
  #ifdef RGBLIGHT_ENABLE
  #    define RGBLIGHT_ANIMATIONS
- /* #define RGB_LIGHT_EFFECT_BREATHE_MAX 200 */
- /* #define RGBLIGHT_RAINBOW_SWIRL_RANGE 127 */
- /* #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_MOOD */
- /* #define RGBLIGHT_DEFAULT_HUE 205 */
- /* #define RGBLIGHT_EFFECT_RAINBOW_MOOD */
- #    define RGBLIGHT_DEFAULT_SPD 10
+ #    define RGBLIGHT_DEFAULT_SPD 12
  #endif
 
  #define TAPPING_TERM 200
@@ -42,25 +39,19 @@
  #    define RGB_DI_PIN D3
  #    define DRIVER_LED_TOTAL 74
  #    define RGB_DISABLE_WHEN_USB_SUSPENDED   // turn off effects when suspended
- #    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 80 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash.
- /* #define RGB_MATRIX_HUE_STEP 8 */
- /* #define RGB_MATRIX_SAT_STEP 8 */
- /* #define RGB_MATRIX_VAL_STEP 8 */
- /* #define RGB_MATRIX_SPD_STEP 10 */
+ #    define RGB_MATRIX_MAXIMUM_BRIGHTNESS 70 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash.
  #    define RGB_MATRIX_KEYPRESSES
- /* #define RGB_MATRIX_FRAMEBUFFER_EFFECTS */
- /* #    define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT */
- /* #define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON */
+ #    define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
  #    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
  #    define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
- #    define LUNA
  /* #    define ENABLE_RGB_MATRIX_MULTISPLASH */
  /* #define RGB_MATRIX_STARTUP_MODE       RGB_MATRIX_RAINDROPS */
  #    define RGB_MATRIX_SPLIT \
          { 37, 37 }
- /* #define SPLIT_TRANSPORT_MIRROR */
 
  #endif
+
+ #define LUNA
 
  #if defined(OLED_FONT_H)
  #    undef OLED_FONT_H

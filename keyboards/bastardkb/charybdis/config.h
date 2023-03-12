@@ -24,8 +24,8 @@
 // Enable use of pointing device on slave split.
 #define SPLIT_POINTING_ENABLE
 
-// Pointing device is on the right split.
-#define POINTING_DEVICE_RIGHT
+// Pointing device is on the left split.
+#define POINTING_DEVICE_LEFT
 
 // Limits the frequency that the sensor is polled for motion.
 #define POINTING_DEVICE_TASK_THROTTLE_MS 1

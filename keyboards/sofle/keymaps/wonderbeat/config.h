@@ -48,6 +48,7 @@
  /* #define RGB_MATRIX_STARTUP_MODE       RGB_MATRIX_RAINDROPS */
  #    define RGB_MATRIX_SPLIT \
          { 37, 37 }
+ #    define RGB_MATRIX_LED_COUNT DRIVER_LED_TOTAL
 
  #endif
 

@@ -30,7 +30,9 @@
 #define POINTING_DEVICE_TASK_THROTTLE_MS 1
 
 // Invert X axis on mouse reports.
-#define POINTING_DEVICE_INVERT_X
+//#define POINTING_DEVICE_INVERT_X
+
+#define POINTING_DEVICE_INVERT_Y
 
 /* RGB matrix support. */
 #ifdef RGB_MATRIX_ENABLE

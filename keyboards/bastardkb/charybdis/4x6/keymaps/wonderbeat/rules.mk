@@ -2,7 +2,7 @@
 #   change yes to no to disable
 #
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = no        # Mouse keys
+MOUSEKEY_ENABLE = yes        # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = no         # Commands for debug and configuration
@@ -26,4 +26,5 @@ SERIAL_DRIVER = vendor
 WS2812_DRIVER = vendor
 
 TAP_DANCE_ENABLE = yes
-CHARYBDIS_MINIMUM_DEFAULT_DPI = 800
+
+CHARYBDIS_MINIMUM_DEFAULT_DPI = 1000

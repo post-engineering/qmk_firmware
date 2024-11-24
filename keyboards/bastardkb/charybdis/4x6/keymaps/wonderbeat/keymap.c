@@ -63,11 +63,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
        KC_TILD, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,    KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_UNDS,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       RGB_MOD, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,    KC_LBRC,   KC_P7,   KC_P8,   KC_P9, KC_RBRC, XXXXXXX,
+       RGB_MOD, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,    KC_LBRC,   KC_P7,   KC_P8,   KC_P9, KC_RBRC, KC_BRMD,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        RGB_TOG, KC_EQL,  KC_MINS, KC_PLUS, KC_LCBR, KC_RCBR,    KC_PPLS,   KC_P4,   KC_P5,   KC_P6, KC_PMNS, KC_DEL,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-      RGB_RMOD, TD(TD_LCBR_LBRC), TD(TD_RCBR_RBRC), XXXXXXX, EE_CLR,  QK_BOOT,    KC_LBRC, KC_RBRC, KC_SCLN, KC_COLN, KC_BSLS, KC_PDOT,
+      RGB_RMOD, TD(TD_LCBR_LBRC), TD(TD_RCBR_RBRC), XXXXXXX, EE_CLR,  QK_BOOT,    KC_LBRC, KC_RBRC, KC_SCLN, KC_COLN, KC_BSLS, KC_BRK,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                            _______, XXXXXXX,    KC_EQL,    KC_MINS, KC_PLUS,
                                                     KC_AMPR,    KC_EXLM,    KC_P0

@@ -7,7 +7,7 @@
     ],
     "scripts": {
       "charybdis": [
-        "qmk compile -kb bastardkb/charybdis/4x6/v1/elitec/ -km wonderbeat"
+        "qmk compile -kb bastardkb/charybdis/4x6/v2/splinky_3/ -km wonderbeat"
       ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
